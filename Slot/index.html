@@ -6,26 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki UXUI Fans</title>
 
-    <style>
-        h2 {
-            color: blue;
-        }
-    </style>
 </head>
 <body>
-    <h2>Soy un t'itulo</h2>
-    <template>
-        <h2>Hola mundo again</h2>
-        <div>
-            <p>Soy otro ejemplo de tetxo</p>
-        </div>
-    </template>
+    <h2>Soy un titulo</h2>
 
-
-    <nav-bar></nav-bar>
+    <my-element>
+        <span slot="title">Soy el t'itulo</span>
+        <span slot="parrafo">Este es un parrafo</span>
+    </my-element>
 
     
     <!-- <script src="./src/nab-var.js"></script> -->
-    <script src="./src/template.js"></script>
+    <script src="/Slot/my-element.js"></script>
 </body>
 </html>
